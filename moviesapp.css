@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    background-color: black;
+    text-align: center;
+    color: bisque
+}
+
+table {
+    width: 300px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 2px solid bisque;
+    padding: 3px;
+}
+
+#movietitle {
+    margin-top: 10px;
+    width: 250px;
+}
+
+#rate{
+    margin-top: 10px;
+    width: 250px;
+}
+
+#sbmtbtn {
+    margin-top: 10px;
+    width: 250px;
+}
+
+.delete {
+    width: 25px;
+}
